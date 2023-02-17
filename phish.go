@@ -72,7 +72,7 @@ func setup(ey string) {
 | |/ /| \__ \ (_| (_) | | | (_| |      | |   | | | | \__ \ | | |
 |___/ |_|___/\___\___/|_|  \__,_|      \_|   |_| |_|_|___/_| |_|
                   By: Euronymou5
-    `
+        `
 	fmt.Println("\033[33m" + logo)
 	fmt.Println("\033[34m[~] Starting php server...")
         fmt.Println("[~] Port: 8080")
@@ -182,7 +182,7 @@ func main() {
 | |/ /| \__ \ (_| (_) | | | (_| |      | |   | | | | \__ \ | | |
 |___/ |_|___/\___\___/|_|  \__,_|      \_|   |_| |_|_|___/_| |_|
                By: Euronymou5
-    `
+        `
 	fmt.Println("\033[33m" + logo)
         fmt.Println("\033[34m[1] Use template in Spanish")
         fmt.Println("[2] Use template in English")
