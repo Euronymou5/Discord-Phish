@@ -1,4 +1,4 @@
-// 0ni-Phish
+// Discord-Phish
 // By: Euronymou5
 // https://twitter.com/Euronymou51
 // https://github.com/Euronymou5
