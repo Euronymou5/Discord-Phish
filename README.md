@@ -10,21 +10,16 @@
 
 ## Requirements
 
-*Git*
+• `Git`
 
-*Go*
+• `Go`
 
-*PHP*
+• `PHP`
 
-*SSH*
+• `SSH`
 
 <h2>Only compatible with linux (Debian)!!</h2>
 
-> Clone the repository
-
-```bash
-git clone https://github.com/Euronymou5/Discord-Phish
-```
 > Install "go"
 
 ```bash
@@ -41,4 +36,22 @@ sudo apt install openssh -y
 
 ```bash
 sudo apt install php -y
+```
+
+> Clone the repository
+
+```bash
+git clone https://github.com/Euronymou5/Discord-Phish
+```
+
+> Enter the folder "Discord-Phish"
+
+```bash
+cd Discord-Phish
+```
+
+> Start the tool
+
+```bash
+go run phish.go
 ```
