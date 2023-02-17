@@ -18,7 +18,12 @@
 
 • `SSH`
 
-<h2>Only compatible with linux (Debian)!!</h2>
+<h2>Only compatible with linux!!</h2>
+
+## Tested in
+*Kali Linux: ✔*
+*Parrot OS: ✔*
+*Ubuntu: ✔*
 
 > Install "go"
 
@@ -55,3 +60,9 @@ cd Discord-Phish
 ```bash
 go run phish.go
 ```
+
+# Contact
+
+**Discord: Euronymou5#3155**
+
+**https://twitter.com/Euronymou51**
