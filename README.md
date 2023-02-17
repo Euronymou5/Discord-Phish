@@ -21,6 +21,23 @@
 
 > Clone the repository
 
-```
+```bash
 git clone https://github.com/Euronymou5/Discord-Phish
+```
+> Install "go"
+
+```bash
+sudo apt install go -y
+```
+
+> Make sure you have ssh installed
+
+```bash
+sudo apt install openssh -y
+```
+
+> Install "php"
+
+```bash
+sudo apt install php -y
 ```
