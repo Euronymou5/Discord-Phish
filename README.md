@@ -17,7 +17,7 @@
 
 *SSH*
 
-**Only compatible with linux (Debian)!!**
+<h2>Only compatible with linux (Debian)!!</h2>
 
 > Clone the repository
 
