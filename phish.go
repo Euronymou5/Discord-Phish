@@ -3,15 +3,15 @@ package main
 import (
     "fmt"
     "os/exec"
-	"regexp"
-	"os"
-	"io/ioutil"
-	"log"
+    "regexp"
+    "os"
+    "io/ioutil"
+    "log"
     "time"
 )
 
 func clear() {
-	com := "clear"
+    com := "clear"
     cmd := exec.Command(com)
     cmd.Stdout = os.Stdout
     cmd.Run()
@@ -75,7 +75,7 @@ func setup(ey string) {
     `
 	fmt.Println("\033[33m" + logo)
 	fmt.Println("\033[34m[~] Starting php server...")
-    fmt.Println("[~] Port: 8080")
+        fmt.Println("[~] Port: 8080")
 	cfUrl := ""
 	time.Sleep(2 * time.Second)
 	if ey == "ingles" {
@@ -184,24 +184,24 @@ func main() {
                By: Euronymou5
     `
 	fmt.Println("\033[33m" + logo)
-    fmt.Println("\033[34m[1] Use template in Spanish")
-    fmt.Println("[2] Use template in English")
+        fmt.Println("\033[34m[1] Use template in Spanish")
+        fmt.Println("[2] Use template in English")
 	fmt.Println("[99] Exit")
 	var elegir int
 	fmt.Println(" ")
 	fmt.Print(">> ")
-    fmt.Scan(&elegir)
-    switch elegir {
-    case 1:
-        ey := "espain"
-		setup(ey)
-    case 2:
-         ey := "ingles"
-		 setup(ey)
+        fmt.Scan(&elegir)
+        switch elegir {
+        case 1:
+           ey := "espain"
+	   setup(ey)
+        case 2:
+           ey := "ingles"
+	   setup(ey)
 	case 99:
-		os.Exit(0)
-    default:
-        fmt.Println("\033[31m[!] Invalid option.")
-		main()
+	   os.Exit(0)
+        default:
+           fmt.Println("\033[31m[!] Invalid option.")
+	   main()
     }
 }
