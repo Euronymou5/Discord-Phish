@@ -21,8 +21,11 @@
 <h2>Only compatible with linux!!</h2>
 
 ## Tested in
+
 *Kali Linux: ✔*
+
 *Parrot OS: ✔*
+
 *Ubuntu: ✔*
 
 > Install "go"
