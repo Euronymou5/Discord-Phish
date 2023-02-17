@@ -63,6 +63,13 @@ cd Discord-Phish
 ```bash
 go run phish.go
 ```
+--------------
+
+# Imagenes
+
+| Main Menu | User logs, username, password, ip |
+| -------------- | ----------------|
+|![Index](https://media.discordapp.net/attachments/995599976463859713/1075986331223732254/image.png?width=507&height=224)|![f](https://media.discordapp.net/attachments/995599976463859713/1075986263045308528/image.png?width=625&height=368)
 
 # Contact
 
